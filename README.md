@@ -15,3 +15,13 @@ make clean && make
 python3 app.py
 ```
 
+## Performance Benchmarks
+
+Engine performance profiling metrics executed natively on a macOS subsystem environment:
+
+- **Total Word Count Indexed:** 370,105 words
+- **Tree Generation Delay:** ~434,511 microseconds (under 0.5 seconds)
+- **Search Execution Profile:** 100,000 operational lookup loop cycles
+- **Average Word Query Latency:** ~0.5 microseconds per unique search query
+
+
